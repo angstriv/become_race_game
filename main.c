@@ -36,8 +36,8 @@ int main()
 {
 	char name[20] = "";
 	char gender[20] = "";
-	char male[20] = "male";
-	char females[20] = "females";
+	const char male[20] = "male";
+	const char females[20] = "females";
 	int input_weight = 0;//输入体重
 	double standard_weight = 0;//标准体重
 	double weight_difference = 0;//输入体重 和 标准体重 的 差
@@ -46,9 +46,9 @@ int main()
 	char continental_nationality[20] = "";
 
 	//各个洲
-	char asia[16] = "asia";
-	char america[16] = "america";
-	char africa[16] = "africa";
+	const char asia[16] = "asia";
+	const char america[16] = "america";
+	const char africa[16] = "africa";
 
 
 
